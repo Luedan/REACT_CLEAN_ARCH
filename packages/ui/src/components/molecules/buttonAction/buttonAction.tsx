@@ -2,13 +2,14 @@ import { useTheme } from "@mui/material";
 import { ButtonUI } from "../../atoms/button/button";
 import { TypographyUI } from "../../atoms/typography/typography";
 import { ButtonActionProps, TActionToColor } from "./type";
-import { Save, HighlightOff, Delete, Edit } from "@mui/icons-material";
+import { Save, HighlightOff, Delete, Edit, Add } from "@mui/icons-material";
 
 const actionToColor: TActionToColor = {
   save: "success",
   cancel: "warning",
   delete: "error",
   edit: "info",
+  add: "primary",
 };
 
 const actionIcons = {
@@ -16,6 +17,7 @@ const actionIcons = {
   cancel: HighlightOff,
   delete: Delete,
   edit: Edit,
+  add: Add,
 };
 
 export function ButtonActionUI(props: ButtonActionProps) {

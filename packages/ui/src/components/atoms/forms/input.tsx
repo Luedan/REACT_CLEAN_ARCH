@@ -6,14 +6,10 @@ import { Visibility, VisibilityOff } from "@mui/icons-material";
 
 export const TextFieldUI = React.forwardRef<HTMLInputElement, TextFieldProps>(
   (props: TextFieldProps, ref) => {
-    
     return (
       <TextField
         variant="outlined"
         size="small"
-        InputLabelProps={{
-          shrink: !!props.value,
-        }}
         fullWidth
         {...props}
         ref={ref}
@@ -62,7 +58,7 @@ export function ControlledTextFieldUI<T>({
     <Controller
       control={control}
       name={name || ""}
-      render={({ field  }) =>
+      render={({ field }) =>
         rest.type === "password" ? (
           <PasswordFieldUI {...rest} {...field} />
         ) : (

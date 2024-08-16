@@ -8,6 +8,7 @@ export { toastInvoker } from "./components/atoms/toast/toast";
 export { GridUI } from "./components/atoms/grid/grid";
 export { TableUI } from "./components/atoms/table/table";
 export { ModalUI } from "./components/atoms/modal/modal";
+export { PaperUI } from "./components/atoms/paper/paper";
 
 //forms
 export {
