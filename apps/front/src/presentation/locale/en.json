@@ -1,0 +1,600 @@
+{
+  "translation": {
+    "login": {
+      "title": "Welcome",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "login": "Login",
+      "forgot": "Forgot Your Password?",
+      "register": "Register",
+      "error": "Incorrect Email or Password!",
+      "success": "Successfully Logged In!",
+      "recoverPasswordTitle": "Recover Password",
+      "setPasswordTitle": "Set Password",
+      "sendEmail": "Send Mail",
+      "passwordSetSuccess": "Password Set Successfully",
+      "newPassword": "New Password",
+      "currentPassword": "Current Password",
+      "changePasswordTitle": "Change Password",
+      "createPasswordError": "Password does not match"
+    },
+    "recoverPassword": {
+      "success": "Email sent",
+      "error": "An incident occurred while sending mail"
+    },
+    "createPassword": {
+      "idNotFound": "null or invalid user id",
+      "success": "Password created successfully",
+      "error": "An incident occurred while create password"
+    },
+    "modalAlert": {
+      "title": "Confirm Action",
+      "paragraph": "Are you sure you want to proceed?",
+      "nameAccept": "Confirm",
+      "nameDecline": "Cancel"
+    },
+    "todo": {
+      "title": "Todo List",
+      "add": "Add Task",
+      "edit": "Edit Task",
+      "delete": "Delete Task",
+      "empty": "No Tasks Available",
+      "success": "Task Saved Successfully!",
+      "deleteSuccess": "Task Deleted Successfully!",
+      "inputs": {
+        "task": "Task"
+      },
+      "list": {
+        "task": "Task",
+        "status": "Status",
+        "actions": "Actions"
+      },
+      "error": {
+        "save": "Error Saving Task!",
+        "delete": "Error Deleting Task!",
+        "update": "Error Updating Task!"
+      }
+    },
+    "errors": {
+      "required": "Field Required",
+      "text": "The field must be text",
+      "number": "The field must be type number",
+      "email": "Invalid Email",
+      "min": "Field Minimum of {{min}} Characters",
+      "max": "Maximum of {{max}} Characters",
+      "password": "Invalid Password",
+      "onlyNumber": "This field must be type Number",
+      "invalidDate": "Invalid date",
+      "passwordMatch": "Passwords Do Not Match",
+      "uppercase": "Must have at least one uppercase letter",
+      "specialCharacter": "Must have at least one special character",
+      "noSpaces": "No spaces are allowed"
+    },
+    "actions": {
+      "save": "Save",
+      "savePassword": "Save Password",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "edit": "Edit",
+      "add": "Add",
+      "back": "Back"
+    },
+    "licenseRegistration": {
+      "title": "License Registration",
+      "licenseInfoTitle": "License Information",
+      "adminUser": "Admin User",
+      "addLicense": "Add License",
+      "success": "License Saved Successfully!",
+      "fields": {
+        "documentType": "Document Type",
+        "documentNumber": "Document Number",
+        "dv": "Dv",
+        "personType": "Person Type",
+        "companyName": "Company Name",
+        "economicActivity": "Economic Activity (Ciiu)",
+        "city": "City",
+        "address": "Address",
+        "phoneNumber": "Phone Number",
+        "taxRegime": "Regime",
+        "currency": "Currency",
+        "email": "Email",
+        "fullName": "Full Name",
+        "language": "Language"
+      },
+      "error": {
+        "save": "Error Saving License!"
+      },
+
+      "modules": {
+        "titleModules": "Modules",
+        "pagadurias": "Payrolls",
+        "inversionistas": "Investors",
+        "etapas": "Stages",
+        "tesoreria": "Treasury",
+        "beneficiario": "Beneficiary",
+        "vendedores": "Sellers",
+        "caracteristicas": "Features",
+        "utilitarios": "Utilities",
+        "cartera": "Portfolio",
+        "lotes": "Lots",
+        "pagosElectronicos": "Electronic Payments",
+        "administracion": "Administration",
+        "creditos": "Credits",
+        "usuarios": "Users",
+        "parametros": "Parameters"
+      },
+      "integrations": {
+        "titleIntegrations": "Integraciones",
+        "factureFacturaElectronica": "Facture - Electronic Invoice",
+        "factureNominaElectronica": "Facture - Electronic Payroll",
+        "factureDocumentoSoporte": "Facture - Support Document",
+        "facturatechNominaElectronica": "Facturatech - Electronic Payroll",
+        "facturatechFacturaElectronica": "Facturatech - Electronic Invoice",
+        "facturatechDocumentoSoporte": "Facturatech - Support Document",
+        "jaimeTorresNominaElectronica": "Jaime Torres - Electronic Payroll",
+        "jaimeTorresFacturaElectronica": "Jaime Torres - Electronic Invoice",
+        "jaimeTorresDocumentoSoporte": "Jaime Torres - Support Document",
+        "payu": "PayU",
+        "wompi": "Wompi",
+        "transunionConsultaCentralesDeRiesgo": "TransUnion - Risk Center Consultation",
+        "datacreditoConsultaCentralesDeRiesgo": "Datacrédito - Risk Center Consultation",
+        "mareiguaConsultaCentralesDeRiesgo": "Mareigua - Risk Center Consultation"
+      },
+      "list": {
+        "identificationType": "Identification type",
+        "identification": "Identification",
+        "businessName": "Business name",
+        "administrator": "Administrator",
+        "status": "Status",
+        "actions": "Actions",
+        "createdUsers": "Created Users",
+        "fullName": "Full Name",
+        "email": "Email",
+        "role": "Role"
+      },
+      "listIdentifications": {
+        "title": "Types of IDs",
+        "v_des_identificacion": "Name",
+        "v_sigla_identificacion": "Prefix",
+        "v_cod_dane": "Code"
+      }
+    },
+    "investorRegistration": {
+      "title": "Investor Registration",
+      "investorInfoTitle": "Personal Information",
+      "investorOtherTitle": "Otra Information",
+      "adminUser": "Admin User",
+      "addInvestor": "Add Investor",
+      "home": "Domicilio",
+      "planAddTitleButton": "+ Add Plan",
+      "infoBankAddTitleButton": "+ Add Info. Bank",
+      "investorPlanTitle": "Investor Plans",
+      "BankInformation": "Bank information",
+      "success": "Investor Saved Successfully!",
+      "fields": {
+        "documentType": "Document Type",
+        "worth": "Worth",
+        "documentNumber": "Document Number",
+        "dv": "Dv",
+        "personType": "Person Type",
+        "companyName": "Company Name",
+        "typeOfRoad": "Type Of Road",
+        "economicActivity": "Economic Activity (Ciiu)",
+        "city": "City",
+        "bankingEntity": "Banking entity",
+        "accountNumber": "Account Number",
+        "accountType": "Account Type",
+        "planName": "Plan",
+        "address": "Address",
+        "firstTrackNumber": "First track number",
+        "secondTrackNumber": "Second track number",
+        "thirdTrackNumber": "Third track number",
+        "taxRegime": "Regime",
+        "currency": "Currency",
+        "email": "Email",
+        "language": "Language",
+        "identificacion": "Identification",
+        "primer_nombre": "First name",
+        "segundo_nombre": "Middle name",
+        "primer_apellido": "First surname",
+        "segundo_apellido": "Second surname",
+        "razon_social": "Company name",
+        "telefono": "Phone",
+        "correo": "Email",
+        "fecha_nacimiento": "Birth date",
+        "numero_cuenta": "Account number",
+        "tipo_persona": "Person type",
+        "direccion_completa": "Complete address",
+        "id_cod_ciiu": "Economic Activity",
+        "id_banco": "Banking Entity",
+        "id_tipoCuenta": "Account Type",
+        "id_empresa": "Company",
+        "id_nomenclatura": "Nomenclature"
+      },
+      "error": {
+        "save": "Error Saving Investor!"
+      },
+      "list": {
+        "fullNameBusinessName": "Full Name / Business Name",
+        "identificationType": "Identification type",
+        "creditInvestor": "Credit Investor",
+        "phoneNumber": "Phone",
+        "investorPlan": "Investor plans",
+        "identification": "Identification",
+        "businessName": "Business name",
+        "administrator": "Administrator",
+        "available": "Available",
+        "status": "Status",
+        "actions": "Actions",
+        "createdUsers": "Created Users",
+        "fullName": "Full Name",
+        "email": "Email",
+        "role": "Role"
+      }
+    },
+    "companyRegistration": {
+      "companyListTitle": "Company List",
+      "nit": "Nit",
+      "dv": "Dv",
+      "businessName": "Business name",
+      "employeesNumber": "N° Employees",
+      "averageSalary": "Average salary"
+    },
+    "activitiesEconomic": {
+      "title": "Activities economic",
+      "list": {
+        "activityName": "Economic Activity Name",
+        "activityCode": "CIIU Code"
+      }
+    },
+    "genderCreate": {
+      "title": "Genders",
+      "add": "Create gender",
+      "v_descripcion": "Name",
+      "v_sigla": "acronyms",
+      "edit": "Edit gender",
+      "delete": "Delete Gender",
+      "empty": "No gender available",
+      "success": "Gender created Correctly!",
+      "updateSuccess": "Correctly updated gender!",
+      "deleteSuccess": "Correctly Eliminated Gender!",
+      "inputs": {
+        "v_descripcion": "gender name",
+        "v_sigla": "acronyms"
+      },
+      "listGender": {
+        "gender": "Genders",
+        "actions": "Actions"
+      },
+      "actions": {
+        "save": "save"
+      },
+      "error": {
+        "save": "Error when creating gender!",
+        "delete": "Error when deleting gender!",
+        "update": "Error updating gender!"
+      }
+    },
+    "AccountingCreate": {
+      "title": "Font creation",
+      "add": "Create source",
+      "addModal": "Font creation",
+      "t_descripcion": "Document name",
+      "t_cod_fuente": "Code",
+      "edit": "Edit source",
+      "delete": "Delete source",
+      "empty": "No fonts available",
+      "success": "Font created Successfully!",
+      "updateSuccess": "Font updated successfully!",
+      "deleteSuccess": "Font removed successfully!",
+      "inputs": {
+        "t_descripcion": "Notification name",
+        "t_cod_fuente": "Code"
+      },
+      "listAccounting": {
+        "t_descripcion": "Document name",
+        "t_cod_fuente": "Code",
+        "actions": "Actions"
+      },
+      "actions": {
+        "save": "Save",
+        "edit": "Edit source"
+      },
+      "error": {
+        "save": "Error creating font!",
+        "delete": "Error deleting font!",
+        "update": "Error updating font!"
+      }
+    },
+    "listTypeBanks": {
+      "title": "Bank Accounts",
+      "name": "Name",
+      "acronym": "Acronyms"
+    },
+    "listNomenclature": {
+      "title": "Nomenclature",
+      "v_desc_nomenclatura": "Name"
+    },
+    "typeAddress": {
+      "title": "Name"
+    },
+    "listBanks": {
+      "title": "Banking entities",
+      "v_nom_banco": "Name",
+      "v_cod_banco": "Code"
+    },
+    "paymentMethods": {
+      "title": "Payment methods",
+      "name": "Name"
+    },
+    "lang": {
+      "es": "Spanish",
+      "en": "English"
+    },
+    "departments": {
+      "title": "Departments",
+      "list": {
+        "activityCode": "Code",
+        "activityName": "Name"
+      }
+    },
+    "cities": {
+      "title": "Cities",
+      "list": {
+        "department": "Departamento",
+        "activityCode": "Code",
+        "activityName": "Name"
+      }
+    },
+    "documentCreate": {
+      "title": "Document creation",
+      "add": "Create document",
+      "cod_documento": "Document name",
+      "consecutivo": "Code",
+      "t_descripcion": "Proof of source",
+      "edit": "Edit document",
+      "delete": "Delete document",
+      "empty": "No document available!",
+      "success": "Document created successfully!",
+      "updateSuccess": "Document updated successfully!",
+      "deleteSuccess": "Document Deleted Successfully!",
+      "inputs": {
+        "cod_documento": "Document name",
+        "consecutivo": "Voucher code",
+        "t_descripcion": "Proof of source"
+      },
+      "listDocument": {
+        "document": "Documents",
+        "actions": "Actions"
+      },
+      "actions": {
+        "save": "Save"
+      },
+      "error": {
+        "save": "Error creating document!",
+        "delete": "Error deleting document!",
+        "update": "Error updating document!"
+      }
+    },
+    "coin": {
+      "title": "Coin",
+      "list": {
+        "name": "Name",
+        "code": "code"
+      }
+    },
+    "CompanyCreate": {
+      "title": "General Information",
+      "Home": "Address",
+      "v_cod_empresa": "Code",
+      "v_nit": "NIT",
+      "v_dig_verificacion": "Verification Digit",
+      "v_des_identificacion": "Document Type",
+      "v_nom_ciudad": "City",
+      "numeroEmpleado": "Number of Employees",
+      "salariopromedio": "Average Salary",
+      "potencial": "Placement Potential",
+      "legalDetails": "Legal Representative Details",
+      "natureCompany": "Company Nature",
+      "optionalData": "Optional Data",
+      "DocumentNecessary": "Required Documents",
+      "contacts": "Contacts",
+      "finanInfo": "Financial Information",
+      "v_descripcion": "Status",
+      "v_correo": "Email",
+      "empty": "No Companies Available",
+      "fec_constitucion": "Date of Incorporation",
+      "success": "Company Created Successfully!",
+      "updateSuccess": "Company Updated Successfully!",
+      "deleteSuccess": "Company Deleted Successfully!",
+      "v_telefono": "Phone Number",
+      "listCompany": {
+        "title": "Company Information",
+        "actions": "Actions"
+      },
+      "actions": {
+        "save": "Save",
+        "add": "Add Contact"
+      },
+      "error": {
+        "save": "Error Creating Company!",
+        "editDvWarning": "Field dv manipulation detected, you will not be able to save this record.",
+        "editDvError": "DV Field Was Manipulated.",
+        "delete": "Error Deleting Company!",
+        "update": "Error Updating Company!"
+      },
+      "inputs": {
+        "v_nit": "NIT",
+        "v_nom_empresa": "Company Name",
+        "v_cod_empresa": "Company Code",
+        "v_dig_verificacion": "Verification Digit",
+        "v_telefono": "Phone Number",
+        "v_correo": "Email",
+        "v_complemento_direccion": "Address Complement",
+        "v_direccion_full": "Address",
+        "v_ident_repren_legal": "Identification Number",
+        "v_nombre_completo": "Full Name",
+        "v_correo_rlegal": "Email",
+        "fec_constitucion": "Date of Incorporation",
+        "n_capital_soc": "Company Capital $",
+        "zone": "Zone Type",
+        "principal": "Main",
+        "v_num_principal": "Number",
+        "v_pri_num_casa": "Number",
+        "v_seg_num_casa": "Number",
+        "nomenclatura1": "Nomenclature",
+        "nomenclatura2": "Nomenclature",
+        "nature": "Nature",
+        "v_resolucion": "Resolution Number",
+        "accesoPagaduria": "Payroll Access",
+        "modificarEmpleado": "Allow Employee Modification",
+        "vendedor": "Vendor",
+        "nameDocument": "Document Name",
+        "numeroTel": "Phone Number",
+        "correo": "Email",
+        "grup": "Group",
+        "priority": "Priority",
+        "cargo": "Position",
+        "nombreCompleto": "Full Name",
+        "dateCons": "Date of Incorporation",
+        "value": "Value $"
+      },
+      "listCredit": {
+        "listCredi": "Credit Lines",
+        "consecutivo": "Consecutive",
+        "LineaCredito": "Credit Line",
+        "maximoPlazo": "Maximum Term",
+        "tasa": "Rate",
+        "iva": "Tax",
+        "atributo": "Attributes",
+        "actions": "Actions"
+      },
+      "listNomina": {
+        "title": "Active Payrolls",
+        "tipoDocumento": "Document Type",
+        "identificacion": "Identification",
+        "fullName": "Full Name",
+        "telefono": "Phone",
+        "correo": "Email",
+        "cargo": "Position",
+        "salario": "Salary",
+        "actions": "Actions"
+      }
+    },
+    "investmentPlan": {
+      "title": "Plan",
+      "add": "Save",
+      "edit": "Edit plan",
+      "delete": "Delete plan",
+      "empty": "No plans available",
+      "success": "Successfully created plan!",
+      "updateSuccess": "Successfully updated plan!",
+      "deleteSuccess": "Plan Deleted Successfully!",
+      "inputs": {
+        "nombre": "Name",
+        "minimo": "$ Minimum contribution",
+        "porcentaje": "% Profitability percentage"
+      },
+      "listInvestmentPlan": {
+        "listPlan": "List of plans",
+        "nombre": "Name Plan",
+        "minimo": "Minimum contribution",
+        "porcentaje": "Profitability percentage",
+        "actions": "Actions"
+      },
+      "actions": {
+        "save": "Save"
+      },
+      "error": {
+        "save": "Error creating Plan!",
+        "delete": "Error deleting Plan!",
+        "update": "Error updating the Plan!"
+      }
+    },
+    "regimen": {
+      "title": "Regime",
+      "list": {
+        "name": "Name",
+        "code": "code"
+      }
+    },
+    "user": {
+      "title": "Personal Information",
+      "documentType": "Document Type",
+      "documentNumber": "Identification Number",
+      "firstName": "First Name",
+      "secondName": "Second Name",
+      "firstSurname": "First Surname",
+      "secondSurname": "Second Surname",
+      "email": "Email",
+      "phone": "Phone",
+      "role": "Role",
+      "permisosSubModulo": {
+        "title": "Permissions investor module",
+        "access": "access",
+        "create": "create",
+        "modify": "modify",
+        "delete": "delete",
+        "anule": "anule",
+        "print": "print"
+      },
+      "save": {
+        "errorLicense": "User does not belong to any license and will not be able to operate",
+        "success": "Usuario guardado con éxito.",
+        "error": "Error al guardar usuario.",
+        "updateSuccess": "Usuario actualizado con éxito.",
+        "updateError": "Error al actualizar usuario."
+      },
+      "userPermissions": {
+        "title": "User Permissions",
+        "pagadurias": "Paying Agencies",
+        "inversionistas": "Investors",
+        "utilitarios": "Utilities",
+        "cartera": "Portfolio"
+      },
+      "list": {
+        "userInformation": "User Information",
+        "documentType": "Document Type",
+        "identification": "Identification",
+        "user": "User",
+        "role": "Role",
+        "lastStateDate": "Last State Date",
+        "status": "Status",
+        "actions": "Actions"
+      },
+      "roles": {
+        "permissionsRoles": "Role Permissions",
+        "role": "Role",
+        "module": "Module",
+        "listPermissions": "Permissions List",
+        "moduleOptions": "Module Options",
+        "access": "Access",
+        "create": "Create",
+        "modify": "Modify",
+        "delete": "Delete",
+        "cancel": "Cancel",
+        "print": "Print",
+        "editRole": "Edit Role",
+        "createRole": "Create Role",
+        "save": "Save"
+      }
+    },
+    "roles": {
+      "permissionsRoles": "Role Permissions",
+      "role": "Role",
+      "module": "Module",
+      "listPermissions": "Permissions List",
+      "moduleOptions": "Module Options",
+      "access": "Access",
+      "create": "Create",
+      "modify": "Modify",
+      "delete": "Delete",
+      "cancel": "Cancel",
+      "print": "Print",
+      "editRole": "Edit Role",
+      "createRole": "Create Role",
+      "save": "Save"
+    }
+  }
+}

@@ -1,0 +1,589 @@
+{
+  "translation": {
+    "login": {
+      "title": "Bienvenido",
+      "email": "Correo Electrónico",
+      "password": "Contraseña",
+      "confirmPassword": "Confirmar contraseña",
+      "login": "Iniciar sesión",
+      "forgot": "¿Olvidaste tu contraseña?",
+      "register": "Registro",
+      "error": "Correo electrónico o contraseña incorrectos!",
+      "success": "Sesión iniciada correctamente!",
+      "recoverPasswordTitle": "Recuperar contraseña",
+      "setPasswordTitle": "Establecer contraseña",
+      "passwordSetSuccess": "Contraseña establecida con éxito",
+      "sendEmail": "Enviar Correo",
+      "newPassword": "Nueva contraseña",
+      "currentPassword": "Contraseña actual",
+      "changePasswordTitle": "Cambiar contraseña",
+      "createPasswordError": "La contraseña no coinciden"
+    },
+    "recoverPassword": {
+      "success": "Correo enviado",
+      "error": "Ocurrió una incidencia al enviar correo"
+    },
+    "createPassword": {
+      "idNotFound": "id de usuario invalido o nulo",
+      "success": "Contraseña creada con éxito",
+      "error": "Ocurrió una incidencia al crear la contraseña"
+    },
+    "modalAlert": {
+      "title": "Confirmar acción",
+      "paragraph": "¿Estás seguro que desea continuar?",
+      "nameAccept": "Confirmar",
+      "nameDecline": "Cancelar"
+    },
+    "todo": {
+      "title": "Lista de Tareas",
+      "add": "Agregar Tarea",
+      "edit": "Editar Tarea",
+      "delete": "Eliminar Tarea",
+      "empty": "No hay Tareas Disponibles",
+      "success": "Tarea Guardada Correctamente!",
+      "deleteSuccess": "Tarea Eliminada Correctamente!",
+      "inputs": {
+        "task": "Tarea"
+      },
+      "list": {
+        "task": "Tarea",
+        "status": "Estado",
+        "actions": "Acciones"
+      },
+      "error": {
+        "save": "Error al Guardar la Tarea!",
+        "delete": "Error al Eliminar la Tarea!",
+        "update": "Error al Actualizar la Tarea!"
+      }
+    },
+    "errors": {
+      "required": "Campo requerido",
+      "text": "El campo debe ser un texto",
+      "number": "El campo debe ser tipo numero",
+      "email": "Correo electrónico inválido",
+      "min": "Campo mínimo de {{min}} caracteres",
+      "max": "Campo máximo de {{max}} caracteres",
+      "onlyNumber": "Este campo debe tener solo caracteres numéricos",
+      "invalidDate": "Fecha inválida",
+      "password": "Contraseña inválida",
+      "passwordMatch": "Las contraseñas no coinciden",
+      "uppercase": "Debe tener al menos una mayúscula",
+      "specialCharacter": "Debe tener al menos un carácter especial",
+      "noSpaces": "No se permiten espacios en blanco"
+    },
+    "actions": {
+      "save": "Guardar",
+      "savePassword": "Guardar contraseña",
+      "cancel": "Cancelar",
+      "delete": "Eliminar",
+      "edit": "Editar",
+      "add": "Agregar",
+      "back": "Volver"
+    },
+    "licenseRegistration": {
+      "title": "Registro de Licencias",
+      "licenseInfoTitle": "Información de Licencias",
+      "adminUser": "Usuario Administrador",
+      "addLicense": "Agregar Licencia",
+      "success": "Licencia Guardada Correctamente!",
+      "fields": {
+        "documentType": "Tipo de documento",
+        "documentNumber": "Número de documento",
+        "dv": "Dv",
+        "personType": "Tipo de persona",
+        "companyName": "Razón social",
+        "economicActivity": "Actividad económica (Ciiu)",
+        "city": "Ciudad",
+        "address": "Dirección",
+        "phoneNumber": "Número de teléfono",
+        "taxRegime": "Régimen",
+        "currency": "Moneda",
+        "email": "Correo electrónico",
+        "fullName": "Nombre completo",
+        "language": "Idioma"
+      },
+      "error": {
+        "save": "Error al Guardar la Licencia!"
+      },
+      "modules": {
+        "titleModules": "Módulos",
+        "pagadurias": "Pagadurías",
+        "inversionistas": "Inversionistas",
+        "etapas": "Etapas",
+        "tesoreria": "Tesorería",
+        "beneficiario": "Beneficiario",
+        "vendedores": "Vendedores",
+        "caracteristicas": "Características",
+        "utilitarios": "Utilitarios",
+        "cartera": "Cartera",
+        "lotes": "Lotes",
+        "pagosElectronicos": "Pagos electrónicos",
+        "administracion": "Administración",
+        "creditos": "Créditos",
+        "usuarios": "Usuarios",
+        "parametros": "Parámetros"
+      },
+      "integrations": {
+        "titleIntegrations": "Integraciones",
+        "factureFacturaElectronica": "Facture - Factura electrónica",
+        "factureNominaElectronica": "Facture - Nómina electrónica",
+        "factureDocumentoSoporte": "Facture - Documento soporte",
+        "facturatechNominaElectronica": "Facturatech - Nómina electrónica",
+        "facturatechFacturaElectronica": "Facturatech - Factura electrónica",
+        "facturatechDocumentoSoporte": "Facturatech - Documento soporte",
+        "jaimeTorresNominaElectronica": "Jaime Torres - Nómina electrónica",
+        "jaimeTorresFacturaElectronica": "Jaime Torres - Factura electrónica",
+        "jaimeTorresDocumentoSoporte": "Jaime Torres - Documento soporte",
+        "payU": "PayU",
+        "wompi": "Wompi",
+        "transunionConsultaCentralesDeRiesgo": "TransUnion - Consulta centrales de riesgo",
+        "datacreditoConsultaCentralesDeRiesgo": "Datacrédito - Consulta centrales de riesgo",
+        "mareiguaConsultaCentralesDeRiesgo": "Mareigua - Consulta centrales de riesgo"
+      },
+      "list": {
+        "identificationType": "Tipo identificación",
+        "identification": "Identificación",
+        "businessName": "Razón social",
+        "administrator": "Usuario administrador",
+        "status": "Estado",
+        "actions": "Acciones",
+        "createdUsers": "Usuarios creados",
+        "fullName": "Nombre completo",
+        "email": "Correo electrónico",
+        "role": "Rol"
+      },
+      "listIdentifications": {
+        "title": "Tipos de identificaciones",
+        "v_des_identificacion": "Nombre",
+        "v_sigla_identificacion": "Prefijo",
+        "v_cod_dane": "Código"
+      }
+    },
+    "investorRegistration": {
+      "title": "Registro de Inversionista",
+      "listTitle": "Lista de Inversionista",
+      "investorOtherTitle": "Otra Información",
+      "investorInfoTitle": "Información personal",
+      "investorPlanTitle": "Planes de inversión",
+      "home": "Domicilio",
+      "planAddTitleButton": "+ Añadir Plan",
+      "infoBankAddTitleButton": "+ Añadir Info. bancaria",
+      "BankInformation": "Información bancaria",
+      "adminUser": "Usuario Administrador",
+      "addLicense": "Agregar Inversionista",
+      "success": "Inversionista Guardado Correctamente!",
+      "fields": {
+        "documentType": "Tipo de documento",
+        "documentNumber": "Número de documento",
+        "dv": "Dv",
+        "worth": "Valor",
+        "personType": "Tipo de persona",
+        "companyName": "Razón social",
+        "economicActivity": "Actividad económica (Ciiu)",
+        "city": "Ciudad",
+        "typeOfRoad": "Tipo de vía",
+        "address": "Dirección",
+        "bankingEntity": "Entidad bancaria",
+        "accountNumber": "Número de cuenta",
+        "planName": "Plan",
+        "accountType": "Tipo de cuenta",
+        "firstTrackNumber": "Primer número de vía",
+        "secondTrackNumber": "Segundo número de vía",
+        "thirdTrackNumber": "Tercer número de vía",
+        "taxRegime": "Régimen",
+        "currency": "Moneda",
+        "email": "Correo electrónico",
+        "language": "Idioma",
+        "identificacion": "Identificación",
+        "primer_nombre": "Primer nombre",
+        "segundo_nombre": "Segundo nombre",
+        "primer_apellido": "Primer apellido",
+        "segundo_apellido": "Segundo apellido",
+        "razon_social": "Razón social",
+        "telefono": "Teléfono",
+        "correo": "Correo",
+        "fecha_nacimiento": "Fecha nacimiento",
+        "numero_cuenta": "Numero cuenta",
+        "tipo_persona": "Tipo persona",
+        "direccion_completa": "Dirección Completa",
+        "id_cod_ciiu": "Actividad Económica",
+        "id_banco": "Entidad Bancaria",
+        "id_tipoCuenta": "Tipo de Cuenta",
+        "id_empresa": "Empresa",
+        "id_nomenclatura": "Nomenclatura"
+      },
+      "error": {
+        "save": "Error al Guardar la Inversionista!"
+      },
+      "list": {
+        "fullNameBusinessName": "Nombre completo / razón social",
+        "investorPlan": "Planes de inversión",
+        "creditInvestor": "créditos e inversión",
+        "available": "Disponibles",
+        "identificationType": "Tipo identificación",
+        "phoneNumber": "Teléfono",
+        "identification": "Identificación",
+        "businessName": "Razón social",
+        "administrator": "Usuario administrador",
+        "status": "Estado",
+        "actions": "Acciones",
+        "createdUsers": "Usuarios creados",
+        "email": "Correo electrónico",
+        "role": "Rol"
+      }
+    },
+    "companyRegistration": {
+      "companyListTitle": "Lista de pagadurías",
+      "nit": "Nit",
+      "dv": "Dv",
+      "businessName": "Razón social",
+      "employeesNumber": "N° Empleados",
+      "averageSalary": "Salario Promedio",
+      "placementPower": "Potencia de colocación"
+    },
+    "user": {
+      "title": "Información personal",
+      "documentType": "Tipo de documento",
+      "documentNumber": "Número identificación",
+      "firstName": "Primer nombre",
+      "secondName": "Segundo nombre",
+      "firstSurname": "Primer apellido",
+      "secondSurname": "Segundo apellido",
+      "email": "Correo electrónico",
+      "phone": "Teléfono",
+      "role": "Rol",
+      "permisosSubModulo": {
+        "title": "Permisos módulos inversionista",
+        "access": "Acceso",
+        "create": "Crear",
+        "modify": "Modificar",
+        "delete": "Eliminar",
+        "anule": "Anular",
+        "print": "Imprimir"
+      },
+      "save": {
+        "errorLicense": "Usuario no pertenece a ninguna licencia no podrá operar",
+        "success": "User save successfully.",
+        "error": "Error saving user.",
+        "updateSuccess": "User updated successfully.",
+        "updateError": "Error updating user."
+      },
+      "userPermissions": {
+        "title": "Permisos del Usuario",
+        "pagadurias": "Pagadurías",
+        "inversionistas": "Inversionistas",
+        "utilitarios": "Utilitarios",
+        "cartera": "Cartera"
+      },
+      "list": {
+        "userInformation": "Información de usuarios",
+        "v_des_identificacion": "Tipo de documento",
+        "v_identificacion": "Identificación",
+        "v_nom_completo": "Usuario",
+        "role": "Rol",
+        "fec_actualizacion": "Fecha último estado",
+        "v_descripcion": "Estado",
+        "actions": "Acciones"
+      }
+    },
+    "activitiesEconomic": {
+      "title": "Actividades económicas",
+      "list": {
+        "activityName": "Nombre de actividad económica",
+        "activityCode": "Código CIIU"
+      }
+    },
+    "genderCreate": {
+      "title": "Géneros",
+      "add": "Crear género",
+      "v_descripcion": "Nombre",
+      "v_sigla": "Siglas",
+      "edit": "Editar género",
+      "delete": "Eliminar Genero",
+      "empty": "No hay Generos Disponibles",
+      "success": "Género creado Correctamente!",
+      "updateSuccess": "Género actualizado correctamente!",
+      "deleteSuccess": "Género Eliminado correctamente!",
+      "inputs": {
+        "v_descripcion": "Nombre de género",
+        "v_sigla": "siglas"
+      },
+      "listGender": {
+        "gender": "Generos",
+        "actions": "Acciones"
+      },
+      "actions": {
+        "save": "Guardar"
+      },
+      "error": {
+        "save": "Error al Crear el Genero!",
+        "delete": "Error al Eliminar el Genero!",
+        "update": "Error al Actualizar el Genero!"
+      },
+      "listBanks": {
+        "title": "Entidades bancarias",
+        "v_nom_banco": "Nombre",
+        "v_cod_banco": "Código"
+      }
+    },
+    "listNomenclature": {
+      "title": "Nomenclatura",
+      "v_desc_nomenclatura": "Nombre"
+    },
+    "AccountingCreate": {
+      "title": "Creación de fuente",
+      "add": "Crear fuente",
+      "addModal": "Creación de fuente",
+      "t_descripcion": "Nombre documento",
+      "t_cod_fuente": "Código",
+      "edit": "Editar fuente",
+      "delete": "Eliminar fuente",
+      "empty": "No hay fuentes Disponibles",
+      "success": "Fuente creada Correctamente!",
+      "updateSuccess": "Fuente actualizada correctamente!",
+      "deleteSuccess": "Fuente eliminada correctamente!",
+      "inputs": {
+        "t_descripcion": "Nombre",
+        "t_cod_fuente": "Código de comprobante"
+      },
+      "listAccounting": {
+        "t_descripcion": "Nombre",
+        "t_cod_fuente": "Código",
+        "actions": "Acciones"
+      },
+      "actions": {
+        "save": "Guardar",
+        "edit": "Editar fuente"
+      },
+      "error": {
+        "save": "Error al crear la fuente!",
+        "delete": "Error al eliminar la fuente!",
+        "update": "Error al actualizar la fuente!"
+      }
+    },
+    "typeAddress": {
+      "title": "Nombre"
+    },
+    "listBanks": {
+      "title": "Entidades bancarias",
+      "v_nom_banco": "Nombre",
+      "v_cod_banco": "Código"
+    },
+    "paymentMethods": {
+      "title": "Formas de pago",
+      "name": "Nombre"
+    },
+    "listTypeBanks": {
+      "title": "Cuentas de banco",
+      "name": "Nombre",
+      "acronym": "Siglas"
+    },
+    "lang": {
+      "es": "Español",
+      "en": "Inglés"
+    },
+    "departments": {
+      "title": "Departamentos",
+      "list": {
+        "activityCode": "Código",
+        "activityName": "Nombre"
+      }
+    },
+    "cities": {
+      "title": "Ciudades",
+      "list": {
+        "department": "Departamento",
+        "activityCode": "Código",
+        "activityName": "Nombre"
+      }
+    },
+    "documentCreate": {
+      "title": "Creación de documento",
+      "add": "Crear documento",
+      "cod_documento": "Tipo de documento",
+      "consecutivo": "Código",
+      "t_descripcion": "Comprobante fuente",
+      "edit": "Editar documento",
+      "delete": "Eliminar documento",
+      "empty": "No hay documento disponibles!",
+      "success": "Documento creado correctamente!",
+      "updateSuccess": "Documento actualizado correctamente!",
+      "deleteSuccess": "Documento Eliminado correctamente!",
+      "inputs": {
+        "cod_documento": "Nombre",
+        "consecutivo": "Código de comprobante",
+        "t_descripcion": "Tipo de comprobante"
+      },
+      "listDocument": {
+        "document": "Documentos",
+        "actions": "Acciones"
+      },
+      "actions": {
+        "save": "Guardar"
+      },
+      "error": {
+        "save": "Error al Crear el documento!",
+        "delete": "Error al Eliminar el documento!",
+        "update": "Error al Actualizar el documento!"
+      }
+    },
+    "coin": {
+      "title": "Monedas",
+      "list": {
+        "name": "Nombre",
+        "code": "Código"
+      }
+    },
+    "CompanyCreate": {
+      "title": "Información general",
+      "Home": "Domicilio",
+      "v_cod_empresa": "Código",
+      "v_nit": "Nit",
+      "v_dig_verificacion": "Dv",
+      "v_des_identificacion": "Tipo de documento",
+      "v_nom_ciudad": "Ciudad",
+      "numeroEmpleado": "Numeros de empleados",
+      "salariopromedio": "Salario promedio",
+      "potencial": "Potencial de colocación",
+      "legalDetails": "Datos del representante legal",
+      "natureCompany": "Naturaleza de la empresa",
+      "optionalData": "Datos opcionales",
+      "DocumentNecessary": "Documentos necesarios",
+      "contacts": "Contactos",
+      "finanInfo": "Información financiera",
+      "v_descripcion": "Estado",
+      "v_correo": "Correo electronico",
+      "empty": "No hay empresas Disponibles",
+      "fec_constitucion": "Fecha de constitución",
+      "success": "Empresa creada Correctamente!",
+      "updateSuccess": "Empresa actualizada correctamente!",
+      "deleteSuccess": "Empresa Eliminada correctamente!",
+      "v_telefono": "Numero teléfonico",
+      "listCompany": {
+        "title": "Información de empresas",
+        "actions": "Acciones"
+      },
+      "actions": {
+        "save": "Guardar",
+        "add": "Añadir contacto"
+      },
+      "error": {
+        "save": "Error al crear la empresa!",
+        "editDvWarning": "Se detecto manipulación de campo dv no podrá guardar este registro.",
+        "editDvError": "Campo DV fue manipulado.",
+        "delete": "Error al eliminar la empresa!",
+        "update": "Error al actualizar la empresa!"
+      },
+      "inputs": {
+        "v_nit": "NIT",
+        "v_nom_empresa": "Razón social",
+        "v_cod_empresa": "Codigo empresa",
+        "v_dig_verificacion": "Dv",
+        "v_telefono": "Numero teléfonico",
+        "v_correo": "Correo electronico",
+        "v_direccion_full": "Dirección",
+        "v_ident_repren_legal": "Numero de identificación",
+        "v_nombre_completo": "Nombre y apellido",
+        "v_correo_rlegal": "Correo electrónico", 
+        "fec_constitucion": "Fecha de constitución",
+        "n_capital_soc": "$ Capital de sociedad",
+        "zone": "Tipo de zona",
+        "v_num_principal": "Vía principal",
+        "v_pri_num_casa": "Primer número de vía",
+        "nomenclatura1": "Nomenclatura",
+        "v_seg_num_casa": "Segundo numero de vía",
+        "nomenclatura2": "Nomenclatura",
+        "v_complemento_direccion": "Tercer numero de vía",
+        "nature": "Naturaleza",
+        "v_resolucion": "Numero de resolucion",
+        "d_fecha_resol": "Fecha",
+        "l_ac_pagaduria": "Acceso a pagaduría",
+        "l_mod_empleados": "Permitir modificar empleado",
+        "vendedor": "Vendedor",
+        "nameDocument": "Nombre de documentos",
+        "numeroTel": "Numero teléfonico",
+        "grup": "Grupo",
+        "priority": "prioridad",
+        "cargo": "Cargo",
+        "nombreCompleto": "Nombre completo",
+        "numeroTelefono": "Numero de telefono",
+        "correo": "Correo electrónico",
+        "dateCons": "Fecha de constitucion"
+      },
+      "listCredit": {
+        "listCredi": "Lineas de credito",
+        "consecutivo": "Consecutivo",
+        "LineaCredito": "Línea de credito",
+        "maximoPlazo": "Máximo de plazos",
+        "tasa": "Tasa",
+        "iva": "Iva",
+        "atributo": "Atributos",
+        "actions": "Acciones"
+      },
+      "listNomina": {
+        "title": "Nominas activa",
+        "tipoDocumento": "Tipo de documento",
+        "identificacion": "Identificación",
+        "fullName": "Nombres y apellidos",
+        "telefono": "Teléfono",
+        "correo": "Correo electrónico",
+        "cargo": "Cargo",
+        "salario": "salario",
+        "actions": "Acciones"
+      }
+    },
+    "investmentPlan": {
+      "title": "Plan",
+      "add": "Guardar",
+      "edit": "Editar plan",
+      "delete": "Eliminar plan",
+      "empty": "No hay planes disponibles",
+      "success": "Plan creado correctamente!",
+      "updateSuccess": "Plan actualizado correctamente!",
+      "deleteSuccess": "Plan Eliminado correctamente!",
+      "inputs": {
+        "nombre": "Nombre",
+        "minimo": "$ Mínimo",
+        "porcentaje": "% Porcentaje"
+      },
+      "listInvestmentPlan": {
+        "listPlan": "Lista de planes",
+        "nombre": "Nombre Plan",
+        "minimo": "Aporte mínimo",
+        "porcentaje": "Porcentaje de rentabilidad",
+        "actions": "Acciones"
+      },
+      "actions": {
+        "save": "Guardar"
+      },
+      "error": {
+        "save": "Error al crear el Plan!",
+        "delete": "Error al eliminar el Plan!",
+        "update": "Error al actualizar el Plan!"
+      }
+    },
+    "regimen": {
+      "title": "Regimen",
+      "list": {
+        "name": "Nombre",
+        "code": "Código"
+      }
+    },
+    "roles": {
+      "permissionsRoles": "Permisos roles",
+      "role": "Rol",
+      "module": "Módulo",
+      "listPermissions": "Lista de permisos",
+      "moduleOptions": "Opciones de módulo",
+      "access": "Acceso",
+      "create": "Crear",
+      "modify": "Modificar",
+      "delete": "Eliminar",
+      "cancel": "Anular",
+      "print": "Imprimir",
+      "editRole": "Editar rol",
+      "createRole": "Crear rol",
+      "save": "Guardar"
+    }
+  }
+}
