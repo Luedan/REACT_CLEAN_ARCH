@@ -61,10 +61,6 @@ export { TableProUI } from "./components/molecules/tablePro/tablePro";
 export { CustomToolbarUI } from "./components/molecules/customToolbar/customToolbar";
 export { CustomSwitchUI } from "./components/molecules/customSwitch/customSwitch";
 
-// ORGANISMS
-export { LayoutUI } from "./components/organism/layout/layout";
-export { LayoutMantis } from "./components/organism/layoutMantis";
-
 // UTILS
 export { createAutoCompleteOptions } from "./utils";
 

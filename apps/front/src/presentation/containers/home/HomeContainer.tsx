@@ -19,10 +19,10 @@ export const HomeContainer = () => {
       <TypographyUI variant="h6">
         Bienvenido a la nueva plantilla con arquitectura limpia.
       </TypographyUI>
-      <ButtonUI onClick={() => navigate("/app/pokemon")}>
+      <ButtonUI onClick={() => navigate("/app/todo")}>
         {translate("home.zustand")} <ArrowForward />
       </ButtonUI>
-      <ButtonUI onClick={() => navigate("/app/todo")}>
+      <ButtonUI onClick={() => navigate("/app/pokemon")}>
         {translate("home.api")} <ArrowForward />
       </ButtonUI>
     </BoxUI>
