@@ -1,4 +1,7 @@
-import { PokeAPIResponseOne } from "@/domain/interfaces/pokeApi/pokeApiResponses";
+import {
+  PokeAPIPaginatedResponse,
+  PokeAPIResponseOne,
+} from "@/domain/interfaces/pokeApi/pokeApiResponses";
 import { pokeApi } from "@/infrastructure/dataSources/pokeApi.dataSource";
 
 /**
@@ -20,6 +23,26 @@ export class PokeApiRepository {
       return response;
     } catch (error) {
       throw new Error("Error fetching getPokemonByNameOrId: " + error);
+    }
+  }
+
+  static async getPokemonList(page: number, limit: number) {
+    try {
+      const response = await pokeApi.get<PokeAPIPaginatedResponse>(
+        `/pokemon?offset=${page * limit}&limit=${limit}`
+      );
+      return response;
+    } catch (error) {
+      throw new Error("Error fetching getPokemonList: " + error);
+    }
+  }
+
+  static async getPokemonByUrl(url: string) {
+    try {
+      const response = await pokeApi.get<PokeAPIResponseOne>(url);
+      return response;
+    } catch (error) {
+      throw new Error("Error fetching getPokemonByUrl: " + error);
     }
   }
 }

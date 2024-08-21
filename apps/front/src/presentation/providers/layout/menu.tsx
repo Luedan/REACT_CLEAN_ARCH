@@ -8,7 +8,7 @@ export function Menu() {
   return (
     <BoxUI sx={{ width: 250 }} role="presentation">
       <List>
-        {["Todo", "Pokemon"].map((text, index) => (
+        {["Todo", "Pokemon", "PaginationList"].map((text, index) => (
           <ListItem
             key={text + "_" + index}
             disablePadding

@@ -1,4 +1,7 @@
-import { Pokemon } from "@/domain/entities/pokemon/pokemon.entity";
+import {
+  Pokemon,
+  PokemonDetailed,
+} from "@/domain/entities/pokemon/pokemon.entity";
 import { PokeAPIResponseOne } from "@/domain/interfaces/pokeApi/pokeApiResponses";
 
 export class PokemonMapper {
@@ -8,6 +11,20 @@ export class PokemonMapper {
       id: data.id,
       name: data.name,
       avatar,
+    };
+  }
+
+  static mapPokemonListFromApiToEntity(
+    data: PokeAPIResponseOne
+  ): PokemonDetailed {
+    return {
+      id: data.id,
+      name: data.name,
+      abilities: data.abilities.map((ability) => ability.ability.name),
+      baseExperience: data.base_experience,
+      height: data.height,
+      weight: data.weight,
+      types: data.types.map((type) => type.type.name),
     };
   }
 }

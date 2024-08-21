@@ -51,7 +51,7 @@ export const PokemonContainer = () => {
           elevation={2}
         >
           <CardMedia
-            sx={{ height: 300, width: "auto",  }}
+            sx={{ height: 300, width: "auto" }}
             image={data?.avatar}
             title={data.name}
           />
