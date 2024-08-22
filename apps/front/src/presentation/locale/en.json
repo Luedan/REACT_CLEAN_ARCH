@@ -83,7 +83,8 @@
     "home": {
       "title": "Home",
       "zustand": "Using Zustand (Global Store)",
-      "api": "Using an API (Calling a REST API)"
+      "api": "Using an API (Calling a REST API)",
+      "pagination": "Paginated List (Calling a REST API - SERVER MODE)"
     },
     "todo": {
       "list": {

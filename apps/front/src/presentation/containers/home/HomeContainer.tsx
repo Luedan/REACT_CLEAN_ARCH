@@ -25,6 +25,9 @@ export const HomeContainer = () => {
       <ButtonUI onClick={() => navigate("/app/pokemon")}>
         {translate("home.api")} <ArrowForward />
       </ButtonUI>
+      <ButtonUI onClick={() => navigate("/app/paginationList")}>
+        {translate("home.pagination")} <ArrowForward />
+      </ButtonUI>
     </BoxUI>
   );
 };

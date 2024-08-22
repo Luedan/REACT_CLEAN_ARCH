@@ -83,7 +83,8 @@
     "home": {
       "title": "Inicio",
       "zustand": "Uso de Zustand (Tienda global)",
-      "api": "Uso de una API (llamar a una API REST)"
+      "api": "Uso de una API (llamar a una API REST)",
+      "pagination": "Listo Paginada (llamar a una API REST - MODO SERVIDOR)"
     },
     "todo": {
       "list": {
