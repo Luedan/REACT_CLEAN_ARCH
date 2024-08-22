@@ -1,16 +1,11 @@
 import { RAMCharacter } from "@/domain/entities/rickAndMorty/rickAndMorty.entity";
 import { useGetRAMpaginatedList } from "@/presentation/hooks/rickAndMorty/useGetRAMpaginatedList";
-import { CustomToolbarUI, GridColDef, TableProUI } from "@repo/ui";
+import { GridColDef, TableServerProUI } from "@repo/ui";
 
 export const PaginationListContainer = () => {
-  const {
-    data,
-    handlePaginationModelChange,
-    info,
-    isLoading,
-    paginationModel,
-    handleFilterModelChange
-  } = useGetRAMpaginatedList();
+  const { data, handlePaginationModelChange, isLoading, paginationModel } =
+    useGetRAMpaginatedList();
+
   const cols: GridColDef<RAMCharacter>[] = [
     {
       field: "id",
@@ -39,25 +34,20 @@ export const PaginationListContainer = () => {
     },
   ];
   return (
-    <>
-      <TableProUI
-        tableProps={{
-          columns: cols,
-          rows: (data?.pages[paginationModel.page] as RAMCharacter[]) || [],
-          loading: isLoading,
-          rowCount: info.total,
-          paginationModel,
-          paginationMode: "server",
-          onPaginationModelChange: handlePaginationModelChange,
-          getRowId: (row) => row.id,
-          slots: { toolbar: CustomToolbarUI },
-          filterMode: "server",
-          onFilterModelChange: handleFilterModelChange,
-        }}
-        boxProps={{
-          height: "400px",
-        }}
-      />
-    </>
+    <TableServerProUI
+      tableProps={{
+        columns: cols,
+        rows: data?.character || [],
+        loading: isLoading,
+        rowCount: data?.total,
+        paginationModel,
+        onPaginationModelChange: handlePaginationModelChange,
+        getRowId: (row) => row.id,
+      }}
+      boxProps={{
+        height: "400px",
+      }}
+      showToolbar
+    />
   );
 };

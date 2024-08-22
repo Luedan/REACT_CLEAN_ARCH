@@ -58,7 +58,9 @@ export { ButtonActionUI } from "./components/molecules/buttonAction/buttonAction
 export { CustomCard } from "./components/molecules/customCard/customCard";
 export { TransitionsModalAlert } from "./components/molecules/modalCofirm/modalConfirm";
 export { TableProUI } from "./components/molecules/tablePro/tablePro";
+export { TableServerProUI } from "./components/molecules/tablePro/tableServerPro";
 export { CustomToolbarUI } from "./components/molecules/customToolbar/customToolbar";
+export { CustomToolbarServerUI } from "./components/molecules/customToolbar/customServerToolbar";
 export { CustomSwitchUI } from "./components/molecules/customSwitch/customSwitch";
 
 // UTILS

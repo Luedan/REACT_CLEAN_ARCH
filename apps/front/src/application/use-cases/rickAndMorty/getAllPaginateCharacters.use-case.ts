@@ -7,14 +7,15 @@ export async function getAllPaginateCharacters(
   query?: string
 ): Promise<RAMPaginatedResponse> {
   try {
-    const responseApi = await RickAndMortyApiRepository.gerAllCharacters(page, query);
+    const responseApi = await RickAndMortyApiRepository.gerAllCharacters(
+      page,
+      query
+    );
 
     const response = RickAndMortyMapper.mapRAMApiResponseToEntity(responseApi);
 
     return response;
   } catch (error) {
-    throw new Error(
-      "Error getting all characters from Rick and Morty API: " + error
-    );
+    return { character: [], total: 0, pages: 0 };
   }
 }

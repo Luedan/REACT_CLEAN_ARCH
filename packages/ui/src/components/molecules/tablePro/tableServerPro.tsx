@@ -3,22 +3,24 @@ import { BoxUI } from "../../atoms/box/box";
 import { TableUI } from "../../atoms/table/table";
 import { BoxProps } from "@mui/material";
 import { forwardRef } from "react";
-import { CustomToolbarUI } from "../customToolbar/customToolbar";
+import { CustomToolbarServerUI } from "../customToolbar/customServerToolbar";
 
 type TableUIProps = {
   tableProps: DataGridProps;
   boxProps?: BoxProps;
   showToolbar?: boolean;
 };
-export const TableProUI = forwardRef<HTMLDivElement, TableUIProps>(
-  ({ tableProps, boxProps, showToolbar = false }, ref) => {
+export const TableServerProUI = forwardRef<HTMLDivElement, TableUIProps>(
+  ({ tableProps, boxProps, showToolbar }, ref) => {
     return (
       <BoxUI {...boxProps} ref={ref}>
         <TableUI
+          filterMode="server"
+          paginationMode="server"
           {...tableProps}
           slots={{
             ...tableProps.slots,
-            ...(showToolbar ? { toolbar: CustomToolbarUI } : {}),
+            ...(showToolbar ? { toolbar: CustomToolbarServerUI } : {}),
           }}
         />
       </BoxUI>
